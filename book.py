@@ -3,11 +3,15 @@ from flask_cors import CORS, cross_origin
 
 # Sample data (in-memory database for simplicity)
 books = [
-    {"id": 1, "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About", "author": "Mel Robbins", "image_url": "https://images-na.ssl-images-amazon.com/images/I/91I1KDnK1kL._AC_UL381_SR381,381_.jpg"},
-    {"id": 2, "title": "Forgotten Home Apothecary : 250 Powerful Remedies at Your Fingertips", "author": "Dr. Nicole Apelian", "image_url": "https://images-na.ssl-images-amazon.com/images/I/91-E86oM2IL._AC_UL381_SR381,381_.jpg"},
-    {"id": 3, "title": "Seven Things You Can't Say About China", "author": "Tom Cotton", "image_url": "https://images-na.ssl-images-amazon.com/images/I/81+mN748qkL._AC_UL381_SR381,381_.jpg"},
-    {"id": 4, "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", "author" : "James Clear", "image_url": "https://images-na.ssl-images-amazon.com/images/I/81ANaVZk5LL._AC_UL381_SR381,381_.jpg"}
-]
+    { "id": 1, "title": "Teenage Mutant Ninja Turtles x Naruto", "author": "Caleb Goellner", "image_url": "https://m.media-amazon.com/images/I/91iA+EfedXL._SY466_.jpg", "price": 15.80 },
+    { "id": 2, "title": "Tim Burton's The Nightmare Before Christmas - Zero's Journey", "author": "D.J. Milky", "image_url": "https://m.media-amazon.com/images/I/71p8+8b6XzL._SY466_.jpg", "price": 24.99 },
+    { "id": 3, "title": "One Piece, Vol. 1: Romance Dawn", "author": "Eiichiro Oda", "image_url": "https://m.media-amazon.com/images/I/91NxYvUNf6L._SY466_.jpg", "price": 7.68 },
+    { "id": 4, "title": "Jujutsu Kaisen, Vol. 1", "author": "Gege Akutami", "image_url": "https://m.media-amazon.com/images/I/81TmHlRleJL._SY466_.jpg", "price": 7.18 },
+    { "id": 5, "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1", "author": "Koyoharu Gotouge", "image_url": "https://m.media-amazon.com/images/I/81ZNkhqRvVL._SY466_.jpg", "price": 6.92 },
+    { "id": 6, "title": "Spy x Family, Vol. 2", "author": "Tatsuya Endo", "image_url": "https://m.media-amazon.com/images/I/41Vpj9KnOaL._SY445_SX342_.jpg", "price": 9.99 },
+    { "id": 7, "Goodnight Punpun, Vol. 1", "author": "Inio Asano", "image_url": "https://m.media-amazon.com/images/I/917IJDfk36L._SY425_.jpg", "price": 13.46 },
+    { "id": 8, "title": "Solo Leveling, Vol. 1", "author": "Chugong", "image_url": "https://m.media-amazon.com/images/I/816hywlmu-L._SY425_.jpg", "price": 11.99 }
+    ];
 
 app = Flask(__name__)
 CORS(app)
