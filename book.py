@@ -9,7 +9,7 @@ books = [
     { "id": 4, "title": "Jujutsu Kaisen, Vol. 1", "author": "Gege Akutami", "image_url": "https://m.media-amazon.com/images/I/81TmHlRleJL._SY466_.jpg", "price": 7.18 },
     { "id": 5, "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1", "author": "Koyoharu Gotouge", "image_url": "https://m.media-amazon.com/images/I/81ZNkhqRvVL._SY466_.jpg", "price": 6.92 },
     { "id": 6, "title": "Spy x Family, Vol. 2", "author": "Tatsuya Endo", "image_url": "https://m.media-amazon.com/images/I/41Vpj9KnOaL._SY445_SX342_.jpg", "price": 9.99 },
-    { "id": 7, "Goodnight Punpun, Vol. 1", "author": "Inio Asano", "image_url": "https://m.media-amazon.com/images/I/917IJDfk36L._SY425_.jpg", "price": 13.46 },
+    { "id": 7, "title": "Goodnight Punpun, Vol.1", "author": "Inio Asano", "image_url": "https://m.media-amazon.com/images/I/917IJDfk36L._SY425_.jpg", "price": 13.46 },
     { "id": 8, "title": "Solo Leveling, Vol. 1", "author": "Chugong", "image_url": "https://m.media-amazon.com/images/I/816hywlmu-L._SY425_.jpg", "price": 11.99 }
     ];
 
