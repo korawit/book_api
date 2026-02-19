@@ -23,6 +23,7 @@ def hello_world():
 
 # Create (POST) operation
 @app.route('/books', methods=['POST'])
+@cross_origin()
 def create_book():
     data = request.get_json()
 
@@ -53,6 +54,7 @@ def get_book(book_id):
 
 # Update (PUT) operation
 @app.route('/books/<int:book_id>', methods=['PUT'])
+@cross_origin()
 def update_book(book_id):
     book = next((b for b in books if b["id"] == book_id), None)
     if book:
@@ -64,6 +66,7 @@ def update_book(book_id):
     
 # Delete operation
 @app.route('/books/<int:book_id>', methods=['DELETE'])
+@cross_origin()
 def delete_book(book_id):
     global books
     books = [b for b in books if b["id"] != book_id]
